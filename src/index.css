@@ -1,0 +1,23 @@
+body {
+    background-image: url("http://localhost:9090/static/background1.jpg");
+    background-position-x: 65%
+}
+
+.navbar {
+    background: transparent;
+}
+
+.navbar a {
+    color: rgb(73, 161, 73) ;
+}
+
+.sidenav {
+    color:  #707070 ;
+    list-style-type: none;
+    align-content: center;
+}
+
+.sidenav a {
+    color:  #707070 ; 
+}
+
