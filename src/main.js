@@ -1,6 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from '../components/App.jsx';
+import { HashRouter as Router } from 'react-router-dom';
+import RoutesSwitch from '../components/RoutesSwitch.jsx';
 import "./index.css";
 
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render(
+    <Router>
+        <RoutesSwitch />
+    </Router>, 
+document.getElementById('app'));
