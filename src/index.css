@@ -1,39 +1,40 @@
 
-.blur{
-            /* CSS rules starting with -webkit, -moz or -ms are
-            CSS3's browser-specific rules. If you use one, use all. */
-            -webkit-filter: blur(2px); /* Safari */
-            -moz-filter: blur(2px); /* Firefox */
-            -ms-filter: blur(2px); /* IE/Edge */
-            filter: blur(2px);
-        }
-        .background { 
-            position: relative;
-            top: 0;
-            left: 0;
-            background-color: rgba(0,0,0,0.4);
-        }
-        .foreground {
-            position: absolute; /* Overlap the previous div */
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0,0,0,0.4);/* transparent background */
-            text-align: center;
-        }
+.blur {
+    -webkit-filter: blur(2px); /* Safari */
+    -moz-filter: blur(2px); /* Firefox */
+    -ms-filter: blur(2px); /* IE/Edge */
+    filter: blur(2px);
+}
+        
+.background { 
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.foreground {
+    position: absolute; /* Overlap the previous div */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);/* transparent background */
+    text-align: center;
+}
+
 .heading {
     color: white ;  
     margin-top:180px; 
 }
 
-.account {
+.accountMain {
     color: white ;  
     margin-top:100px;
 }
 
-.account a {
-    color: white ;  
+.accountMain a {
+    color: #ff5252  ;  
 }
 
 .navbar {
@@ -52,5 +53,9 @@
 
 .sidenav a {
     color:  #707070 ; 
+}
+
+body {
+    background-color: black;
 }
 

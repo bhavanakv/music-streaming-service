@@ -8,8 +8,8 @@ class Home extends React.Component {
             { name: "About",
               linkTo: "/about"
             },
-            { name: "Contact",
-              linkTo: "/contact"
+            { name: "Feedback",
+              linkTo: "/feedback"
             },
             { name: "Register",
               linkTo: "/register" 
@@ -29,7 +29,7 @@ class Home extends React.Component {
                             <h5>Beatbox, a free music player that plays the music you enjoy...</h5> 
                             <h5>Join for free and discover the music...</h5>
                         </div>
-                        <p className="account">Don't have an account? 
+                        <p className="accountMain">Don't have an account? 
                             <a href="#"> Sign up</a></p>
                     </div> 
                 </div>
