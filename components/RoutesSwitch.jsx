@@ -3,6 +3,7 @@ import {Switch,Route} from 'react-router-dom';
 import Home from './Home.jsx';
 import MainPage from './MainPage.jsx';
 import About from './About.jsx';
+import NewReleases from './NewReleases.jsx'
 
 class RoutesSwitch extends React.Component {
     render () {

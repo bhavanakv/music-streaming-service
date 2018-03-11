@@ -1,5 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar.jsx';
+import Sidenav from './Sidenav.jsx';
+import NewReleases from './NewReleases.jsx';
 
 class MainPage extends React.Component {
     render() {
@@ -14,14 +16,16 @@ class MainPage extends React.Component {
             },
             {
                 name: 'New releases',
-                linkTo: '/newrelease'
+                linkTo: '/mainpage'
             }
         ];
         return(
             <div>
-                <div className="main">
-                    <Navbar links={links} />
+                <Navbar links={links} />
+                <div>
+                <Sidenav />                  
                 </div>
+                <NewReleases />
             </div>
         )
     }
