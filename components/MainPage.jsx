@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './Navbar.jsx';
 import Sidenav from './Sidenav.jsx';
+import Player from './Player.jsx';
 import NewReleases from './NewReleases.jsx';
 
 class MainPage extends React.Component {
@@ -26,6 +27,7 @@ class MainPage extends React.Component {
                 <Sidenav />                  
                 </div>
                 <NewReleases />
+                <Player img="/static/first.jpeg" />
             </div>
         )
     }
